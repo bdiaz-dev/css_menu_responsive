@@ -78,6 +78,28 @@ h1{
     right: 12px;
 }
 
+footer{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all .5s;
+}
+
+footer:hover{
+    transform: scale(1.2, 1.2);
+    right: 30px;
+    color: blue;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: inherit;
+}
+
+
+
 @media (max-width:600px){
     .responsive{
         display: block;
